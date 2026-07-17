@@ -1,0 +1,13 @@
+# Render.com Blueprint — one-click deploy for Kasi Lifestyle.
+# In the Render dashboard: New → Blueprint → point it at this repo. Done.
+services:
+  - type: web
+    name: kasi-lifestyle
+    runtime: node
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: 18.20.4

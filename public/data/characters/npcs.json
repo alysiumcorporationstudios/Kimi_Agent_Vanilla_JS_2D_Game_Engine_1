@@ -1,0 +1,102 @@
+{
+  "mama-nomsa": {
+    "id": "mama-nomsa",
+    "name": "Mama Nomsa",
+    "sprite": "/assets/sprites/npc-mama-nomsa.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "speed": 50,
+    "facing": "down",
+    "interactRadius": 52,
+    "animations": {
+      "idle-down":  { "frames": [0], "fps": 1 },
+      "walk-down":  { "frames": [1, 0, 2, 0], "fps": 7 },
+      "idle-left":  { "frames": [3], "fps": 1 },
+      "walk-left":  { "frames": [4, 3, 5, 3], "fps": 7 },
+      "idle-right": { "frames": [6], "fps": 1 },
+      "walk-right": { "frames": [7, 6, 8, 6], "fps": 7 },
+      "idle-up":    { "frames": [9], "fps": 1 },
+      "walk-up":    { "frames": [10, 9, 11, 9], "fps": 7 }
+    },
+    "dialogue": [
+      "Sawubona, sisi! Welcome to Nomsa's Spaza — best prices in the whole kasi.",
+      "Ama-simba, cold drink, airtime, bread fresh from this morning… everything you need is here.",
+      "Business is good when the community supports local. Sharp sharp!"
+    ]
+  },
+  "bra-sipho": {
+    "id": "bra-sipho",
+    "name": "Bra Sipho",
+    "sprite": "/assets/sprites/npc-bra-sipho.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "speed": 55,
+    "facing": "down",
+    "interactRadius": 48,
+    "animations": {
+      "idle-down":  { "frames": [0], "fps": 1 },
+      "walk-down":  { "frames": [1, 0, 2, 0], "fps": 7 },
+      "idle-left":  { "frames": [3], "fps": 1 },
+      "walk-left":  { "frames": [4, 3, 5, 3], "fps": 7 },
+      "idle-right": { "frames": [6], "fps": 1 },
+      "walk-right": { "frames": [7, 6, 8, 6], "fps": 7 },
+      "idle-up":    { "frames": [9], "fps": 1 },
+      "walk-up":    { "frames": [10, 9, 11, 9], "fps": 7 }
+    },
+    "dialogue": [
+      "Heita! You're new around here, ne?",
+      "This kasi is full of life — taxis hooting, kids playing street soccer, the smell of braai on a Sunday.",
+      "Take a walk up to the taxi rank, the marshal will sort you out. Just watch the road — these quantums don't brake for anybody!"
+    ]
+  },
+  "taxi-marshal": {
+    "id": "taxi-marshal",
+    "name": "Taxi Marshal",
+    "sprite": "/assets/sprites/npc-taxi-marshal.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "speed": 65,
+    "facing": "up",
+    "interactRadius": 48,
+    "animations": {
+      "idle-down":  { "frames": [0], "fps": 1 },
+      "walk-down":  { "frames": [1, 0, 2, 0], "fps": 7 },
+      "idle-left":  { "frames": [3], "fps": 1 },
+      "walk-left":  { "frames": [4, 3, 5, 3], "fps": 7 },
+      "idle-right": { "frames": [6], "fps": 1 },
+      "walk-right": { "frames": [7, 6, 8, 6], "fps": 7 },
+      "idle-up":    { "frames": [9], "fps": 1 },
+      "walk-up":    { "frames": [10, 9, 11, 9], "fps": 7 }
+    },
+    "dialogue": [
+      "Sharp sharp! Where to — town or the mall?",
+      "This quantum leaves when it's full. That's the rule, mfowethu. One more, then we go!",
+      "Fifteen rand to town. And no change for a hundred this early, hey!"
+    ]
+  },
+  "gogo-thandi": {
+    "id": "gogo-thandi",
+    "name": "Gogo Thandi",
+    "sprite": "/assets/sprites/npc-gogo-thandi.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "speed": 38,
+    "facing": "down",
+    "interactRadius": 48,
+    "animations": {
+      "idle-down":  { "frames": [0], "fps": 1 },
+      "walk-down":  { "frames": [1, 0, 2, 0], "fps": 6 },
+      "idle-left":  { "frames": [3], "fps": 1 },
+      "walk-left":  { "frames": [4, 3, 5, 3], "fps": 6 },
+      "idle-right": { "frames": [6], "fps": 1 },
+      "walk-right": { "frames": [7, 6, 8, 6], "fps": 6 },
+      "idle-up":    { "frames": [9], "fps": 1 },
+      "walk-up":    { "frames": [10, 9, 11, 9], "fps": 6 }
+    },
+    "dialogue": [
+      "Sawubona, mntanami. Such a beautiful day in the township.",
+      "I've lived on this street for forty years. These roads raised generations, I tell you.",
+      "Be respectful, work hard, and always greet your elders. Uthando olukhulu — much love."
+    ]
+  }
+}

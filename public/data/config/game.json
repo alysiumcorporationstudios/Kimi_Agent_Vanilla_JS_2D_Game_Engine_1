@@ -1,0 +1,10 @@
+{
+  "title": "Kasi Lifestyle",
+  "startMap": "/data/maps/kasi-central.json",
+  "player": "/data/characters/player.json",
+  "npcs": "/data/characters/npcs.json",
+  "objects": "/data/objects/objects.json",
+  "walletStart": 250,
+  "currency": "R",
+  "interactKeys": ["KeyE", "Space"]
+}

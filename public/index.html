@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="data:," />
+    <title>Kasi Lifestyle</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <canvas id="game-canvas"></canvas>
+
+    <div id="ui">
+      <!-- HUD -->
+      <div id="hud" class="hidden">
+        <div id="hud-left">
+          <span id="hud-title">Kasi Lifestyle</span>
+          <span id="hud-sep">•</span>
+          <span id="hud-location"></span>
+        </div>
+        <div id="hud-right">
+          <span id="hud-wallet"></span>
+        </div>
+      </div>
+
+      <!-- Static controls hint -->
+      <div id="controls-hint">WASD / Arrows — move &nbsp;·&nbsp; E — talk &nbsp;·&nbsp; F3 — debug</div>
+
+      <!-- Proximity hint (press E to talk…) -->
+      <div id="hint" class="hidden"></div>
+
+      <!-- Dialogue box -->
+      <div id="dialogue" class="hidden">
+        <div id="dialogue-name"></div>
+        <div id="dialogue-text"></div>
+        <div id="dialogue-next">E ▸</div>
+      </div>
+
+      <!-- Loading screen -->
+      <div id="loading">
+        <div id="loading-card">
+          <h1>KASI LIFESTYLE</h1>
+          <p id="loading-text">Loading the township…</p>
+          <div id="loading-track"><div id="loading-bar"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

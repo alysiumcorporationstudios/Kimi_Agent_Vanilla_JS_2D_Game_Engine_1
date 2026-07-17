@@ -1,0 +1,38 @@
+{
+  "rdp-house": {
+    "image": "/assets/objects/rdp-house.png",
+    "width": 96,
+    "height": 80,
+    "collision": { "x": 4, "y": 28, "w": 88, "h": 48 }
+  },
+  "shack": {
+    "image": "/assets/objects/shack.png",
+    "width": 64,
+    "height": 64,
+    "collision": { "x": 4, "y": 12, "w": 56, "h": 48 }
+  },
+  "spaza-shop": {
+    "image": "/assets/objects/spaza-shop.png",
+    "width": 96,
+    "height": 80,
+    "collision": { "x": 4, "y": 28, "w": 88, "h": 48 }
+  },
+  "minibus-taxi": {
+    "image": "/assets/objects/minibus-taxi.png",
+    "width": 64,
+    "height": 32,
+    "collision": { "x": 2, "y": 2, "w": 60, "h": 28 }
+  },
+  "sedan": {
+    "image": "/assets/objects/sedan.png",
+    "width": 48,
+    "height": 32,
+    "collision": { "x": 2, "y": 2, "w": 44, "h": 28 }
+  },
+  "tree": {
+    "image": "/assets/objects/tree.png",
+    "width": 32,
+    "height": 32,
+    "collision": { "x": 10, "y": 22, "w": 12, "h": 10 }
+  }
+}

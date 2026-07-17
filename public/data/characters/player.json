@@ -1,0 +1,18 @@
+{
+  "id": "player",
+  "sprite": "/assets/sprites/player.png",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "speed": 140,
+  "body": { "w": 20, "h": 18, "ox": 6, "oy": 12 },
+  "animations": {
+    "idle-down":  { "frames": [0], "fps": 1 },
+    "walk-down":  { "frames": [1, 0, 2, 0], "fps": 8 },
+    "idle-left":  { "frames": [3], "fps": 1 },
+    "walk-left":  { "frames": [4, 3, 5, 3], "fps": 8 },
+    "idle-right": { "frames": [6], "fps": 1 },
+    "walk-right": { "frames": [7, 6, 8, 6], "fps": 8 },
+    "idle-up":    { "frames": [9], "fps": 1 },
+    "walk-up":    { "frames": [10, 9, 11, 9], "fps": 8 }
+  }
+}

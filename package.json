@@ -1,0 +1,16 @@
+{
+  "name": "kasi-lifestyle",
+  "version": "1.0.0",
+  "description": "Kasi Lifestyle — a 2D top-down township life-sim engine (HTML5 Canvas + vanilla JS, served by Express).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "license": "MIT"
+}
